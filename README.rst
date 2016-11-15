@@ -42,12 +42,12 @@ mercantile to ``z-x-y``
 
 ::
 
-    » echo '[100, 100, 100]' | xt -d
+    » echo '[100, 100, 100]' | xt -d -
     100-100-100
 
-roundtrip af
+roundtripping
 
 ::
 
-    » pbpaste | xt | xt -d | xt | xt | xt | xt -d | xt | xt 
+    » pbpaste | xt | xt -d - | xt | xt | xt | xt -d | xt | xt 
     17/20972/50653
