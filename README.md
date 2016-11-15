@@ -3,7 +3,7 @@ xt
 
 [![Build Status](https://travis-ci.org/mapbox/xt.svg?branch=master)](https://travis-ci.org/mapbox/xt)
 
-Automatically convert a stream of tiles to another format
+Automatically convert a stream of tile coordinates to another format
 
 - z/x/y | z-x-y ==> [x, y, z]
 
