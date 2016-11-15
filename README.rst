@@ -7,6 +7,19 @@ Automatically convert a stream of tiles to another format
 
 -  [x, y, z] ==> z/x/y \| z-x-y \| z?x?y -d ?
 
+Installation
+------------
+
+::
+
+    pip install xt
+
+Or to develop:
+
+::
+
+    git@github.com:mapbox/xt.git && cd xt && pip install -e '.[test]'
+
 Examples
 --------
 
