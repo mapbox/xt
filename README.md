@@ -1,7 +1,7 @@
 xt
 ===
 
-[![Build Status](https://travis-ci.org/mapbox/xt.svg?branch=master)](https://travis-ci.org/mapbox/xt)
+[![Build Status](https://travis-ci.org/mapbox/xt.svg?branch=master)](https://travis-ci.org/mapbox/xt) [![Coverage Status](https://coveralls.io/repos/github/mapbox/xt/badge.svg?branch=master)](https://coveralls.io/github/mapbox/xt?branch=master)
 
 Automatically convert a stream of tile coordinates to another format
 
