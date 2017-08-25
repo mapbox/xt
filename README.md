@@ -5,9 +5,10 @@ xt
 
 Automatically convert a stream of tile coordinates to another format
 
-- z/x/y | z-x-y ==> [x, y, z]
+- `z/x/y | z-x-y` ==> `[x, y, z]`
 
-- [x, y, z] ==> z/x/y | z-x-y | z?x?y -d ?
+- `[x, y, z]` ==> `z/x/y` | `z-x-y` | `z?x?y -d ?`
+
 
 Installation
 -------------
