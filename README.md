@@ -42,3 +42,23 @@ roundtripping
 » pbpaste | xt | xt -d - | xt | xt | xt | xt -d | xt | xt 
 17/20972/50653
 ```
+Using mercantile to generate tile urls from a parent tile:
+```
+» echo '[0, 0, 0]' | mercantile children --depth 2 | xt | awk '{print "https://map.s/"$NF".png"}'
+https://map.s/2/0/0.png
+https://map.s/2/1/0.png
+https://map.s/2/1/1.png
+https://map.s/2/0/1.png
+https://map.s/2/2/0.png
+https://map.s/2/3/0.png
+https://map.s/2/3/1.png
+https://map.s/2/2/1.png
+https://map.s/2/2/2.png
+https://map.s/2/3/2.png
+https://map.s/2/3/3.png
+https://map.s/2/2/3.png
+https://map.s/2/0/2.png
+https://map.s/2/1/2.png
+https://map.s/2/1/3.png
+https://map.s/2/0/3.png
+```
