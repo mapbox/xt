@@ -8,7 +8,7 @@ with codecs_open('README.md', encoding='utf-8') as f:
 
 
 setup(name='xt',
-      version='0.1.1',
+      version='1.0.0',
       description=u"xForm Tile Coordinates",
       long_description=long_description,
       classifiers=[],
