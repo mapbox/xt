@@ -1,7 +1,8 @@
 language: python
 python:
-  - "2.7"
-  - "3.4"
+  - "3.7"
+  - "3.8"
+  - "3.9"
 install:
   - "pip install coveralls"
   - "pip install -e .[test]"
@@ -11,3 +12,11 @@ script:
 after_success:
   - coveralls
 sudo: false
+deploy:
+  on:
+    repo: mapbox/xt
+    python: 3.8
+    tags: true
+  provider: pypi
+  distributions: "sdist bdist_wheel"
+  user: __token__
